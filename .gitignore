@@ -1,18 +1,18 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Cache do Python
 __pycache__/
 *.py[cod]
-$py.class
-.env
-venv/
-env/
-ENV/
+*$py.class
 
-# Configurações do editor VS Code
-.vscode/
-
-#Banco de dadps local SQlite e pastas do flask
-*.db
+# Banco de dados local SQLite
 instance/
+*.db
+*.sqlite3
 
-# Arquivos enviados pelo usuário em ambiente de desenvolvimento
-static/uploads/*
-!static/uploads/.gitkeep
+# Configurações de IDEs
+.vscode/
+.idea/
